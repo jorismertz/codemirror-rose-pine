@@ -1,20 +1,15 @@
 {
-  "name": "@codemirror/theme-one-dark",
+  "name": "",
   "version": "6.1.2",
-  "description": "One Dark theme for the CodeMirror code editor",
+  "description": "Rose Pine theme for the CodeMirror code editor",
   "scripts": {
     "test": "cm-runtests",
-    "prepare": "cm-buildhelper src/one-dark.ts"
+    "prepare": "cm-buildhelper src/rose-pine.ts"
   },
   "keywords": [
     "editor",
     "code"
   ],
-  "author": {
-    "name": "Marijn Haverbeke",
-    "email": "marijn@haverbeke.berlin",
-    "url": "http://marijnhaverbeke.nl"
-  },
   "type": "module",
   "main": "dist/index.cjs",
   "exports": {
@@ -24,18 +19,14 @@
   "types": "dist/index.d.ts",
   "module": "dist/index.js",
   "sideEffects": false,
-  "license": "MIT",
   "dependencies": {
-    "@lezer/highlight": "^1.0.0",
     "@codemirror/language": "^6.0.0",
     "@codemirror/state": "^6.0.0",
-    "@codemirror/view": "^6.0.0"
+    "@codemirror/view": "^6.0.0",
+    "@lezer/highlight": "^1.0.0",
+    "@rose-pine/palette": "^4.0.1"
   },
   "devDependencies": {
     "@codemirror/buildhelper": "^1.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/codemirror/theme-one-dark.git"
   }
 }
